@@ -39,7 +39,7 @@ Models Used
 
 Observations on Model Performance
 
-|ML Model Name          | Observation about Model performance                                                                                                  
+|ML Model Name          |                      Observation about Model performance                                                                                                  
 
 Logistic Regression   -   Logistic Regression achieves the highest AUC score (0.803) across all models, meaning its internal probability scores rank diabetic                               patients very well relative to non-diabetic patients. Recall value is lower resulting in missing more cases.                         
 
