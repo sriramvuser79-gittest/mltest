@@ -23,11 +23,11 @@ st.write("Upload your test dataset and select a trained model to evaluate its pe
 # --- Requirement B: Model selection dropdown ---
 st.sidebar.header("1. Model Selection")
 model_options = {
-    "Logistic Regression": "lr.pkl",
-    "KNN": "knn.pkl",
-    "Support Vector Machine": "svm_classifier.pkl",
-    "Naive Bayes": "nb_classifier.pkl",
-    "Decision Tree": "dt.pkl"
+    "Logistic Regression": "model/lr.pkl",
+    "KNN": "model/knn.pkl",
+    "Support Vector Machine": "model/svm_classifier.pkl",
+    "Naive Bayes": "model/nb_classifier.pkl",
+    "Decision Tree": "model/dt.pkl"
 }
 selected_model_name = st.sidebar.selectbox("Choose a trained model", list(model_options.keys()))
 
