@@ -50,7 +50,6 @@ Naive Bayes              Naive Bayes achieves the highest Recall (55.7%), the hi
 
 Support Vector Machine   SVM detects less than 10% of true diabetic cases (Recall = 9.7%) .. Have high accuracy but this is misleading.SVM predicts more                                   non-diabetic making them unsafe for clinical trials.                                                                                 
 
-Overall Winner for the   Despite having the lowest raw accuracy (75.1%), Naive Bayes is clearly the most effective baseline model for diabetes detection. It      dataset                  achieves the highest Recall (55.8%), the highest F1 Score (0.419), and the highest MCC (0.287).                                     
-                         Medical Takeaway: Naive Bayes catches over half of the actual diabetic patients—more than double the rate of any other model tested. 
+Overall Winner for the dataset   Despite having the lowest raw accuracy (75.1%), Naive Bayes is clearly the most effective baseline model for diabetes detection.                                  It achieves the highest Recall (55.8%), the highest F1 Score (0.419), and the highest MCC (0.287).                                                                Medical Takeaway: Naive Bayes catches over half of the actual diabetic patients—more than double the rate of any other model                                      tested. 
 
               
