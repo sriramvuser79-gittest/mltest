@@ -41,15 +41,15 @@ Observations on Model Performance
 
 |ML Model Name          | Observation about Model performance                                                                                                  
 
-Logistic Regression      Logistic Regression achieves the highest AUC score (0.803) across all models, meaning its internal probability scores rank diabetic                               patients very well relative to non-diabetic patients. Recall value is lower resulting in missing more cases.                         
+Logistic Regression   -   Logistic Regression achieves the highest AUC score (0.803) across all models, meaning its internal probability scores rank diabetic                               patients very well relative to non-diabetic patients. Recall value is lower resulting in missing more cases.                         
 
-Decision Tree            Decision Tree has lowest AUC score (0.600) and weak F1 score (0.328) indicating high variance and overfitting on the diabetic class. 
+Decision Tree          -  Decision Tree has lowest AUC score (0.600) and weak F1 score (0.328) indicating high variance and overfitting on the diabetic class. 
 
-KNN                      KNN achieves moderate precision (45.0%) and a decent MCC (0.231), but its recall (22.3%) is still far too low for reliable diagnostic                             use.                                                                                                                                 
-Naive Bayes              Naive Bayes achieves the highest Recall (55.7%), the highest F1 Score (0.419), and the highest MCC (0.287). Naive Bayes catches over                              half of the actual diabetic patients—more than double the rate of any other model tested.                                            
+KNN                     - KNN achieves moderate precision (45.0%) and a decent MCC (0.231), but its recall (22.3%) is still far too low for reliable diagnostic                             use.                                                                                                                                 
+Naive Bayes           -   Naive Bayes achieves the highest Recall (55.7%), the highest F1 Score (0.419), and the highest MCC (0.287). Naive Bayes catches over                              half of the actual diabetic patients—more than double the rate of any other model tested.                                            
 
-Support Vector Machine   SVM detects less than 10% of true diabetic cases (Recall = 9.7%) .. Have high accuracy but this is misleading.SVM predicts more                                   non-diabetic making them unsafe for clinical trials.                                                                                 
+Support Vector Machine -  SVM detects less than 10% of true diabetic cases (Recall = 9.7%) .. Have high accuracy but this is misleading.SVM predicts more                                   non-diabetic making them unsafe for clinical trials.                                                                                 
 
-Overall Winner for the dataset   Despite having the lowest raw accuracy (75.1%), Naive Bayes is clearly the most effective baseline model for diabetes detection.                                  It achieves the highest Recall (55.8%), the highest F1 Score (0.419), and the highest MCC (0.287).                                                                Medical Takeaway: Naive Bayes catches over half of the actual diabetic patients—more than double the rate of any other model                                      tested. 
+Overall Winner for the dataset -  Despite having the lowest raw accuracy (75.1%), Naive Bayes is clearly the most effective baseline model for diabetes detection.                                  It achieves the highest Recall (55.8%), the highest F1 Score (0.419), and the highest MCC (0.287).                                                                Medical Takeaway: Naive Bayes catches over half of the actual diabetic patients—more than double the rate of any other model                                      tested. 
 
               
